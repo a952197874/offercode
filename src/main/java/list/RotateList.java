@@ -7,12 +7,12 @@ public class RotateList {
         }
         Node old_tail = head;
         int n;
-        for (n = 1; old_tail.next !=null ; ++) {
+        for (n = 1; old_tail.next !=null ; ++n) {
             old_tail = old_tail.next;
         }
         old_tail.next = head;
         Node new_tail = head;
-        for (int i = 0; i < n-k-1%; i++) {
+        for (int i = 0; i < n-k%n-1; i++) {
             new_tail = new_tail.next;
         }
 
